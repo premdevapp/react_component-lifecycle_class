@@ -5,7 +5,7 @@ const Person = (props) => {
   /* if (Math.floor(Math.random() * 10) > 7) {
     throw new Error("Something Went Wrong!!!");
   } */
-
+  console.log(" [ Pereson js] rendering");
   return (
     //<p>I'm a person and my age is {Math.floor(Math.random() * 30)} years</p>
     <div className={PersonClass.personCard}>
